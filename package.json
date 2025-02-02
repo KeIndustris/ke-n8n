@@ -8,8 +8,6 @@
   },
   "packageManager": "pnpm@9.15.1",
   "scripts": {
-    "preinstall": "npm install -g pnpm",
-    "install": "pnpm install",
     "prepare": "node scripts/prepare.mjs",
     "preinstall": "node scripts/block-npm-install.js",
     "build": "turbo run build",
@@ -78,7 +76,7 @@
       "sqlite3"
     ],
     "overrides": {
-      "@types/node": "^22.12.0",
+      "@types/node": "^20.15.1",
       "chokidar": "^4.0.1",
       "esbuild": "^0.24.0",
       "formidable": "3.5.1",
